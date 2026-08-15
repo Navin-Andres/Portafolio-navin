@@ -1,16 +1,70 @@
-# React + Vite
+# Portafolio de Navin Balmaceda
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Portafolio web personal de **Navin Balmaceda**, desarrollador Full Stack y estudiante de Ingeniería de Sistemas. Presenta su perfil profesional, habilidades técnicas, experiencia, formación, certificaciones y formas de contacto en una interfaz moderna, adaptable e interactiva.
 
-Currently, two official plugins are available:
+🔗 **Demo:** [portafolio-navin.vercel.app](https://portafolio-navin.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Características
 
-## React Compiler
+- Navegación por secciones: inicio, acerca de mí, proyectos, habilidades, perfil y contacto.
+- Tema claro y oscuro, guardado en el navegador.
+- Diseño responsive para escritorio y dispositivos móviles.
+- Proyectos renderizados desde una fuente de datos reutilizable.
+- Enlaces directos a GitHub, LinkedIn, correo y CV.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías
 
-## Expanding the Oxlint configuration
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- JavaScript (ES Modules)
+- Oxlint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Ejecutar el proyecto localmente
+
+### Requisitos
+
+- [Node.js](https://nodejs.org/) 20 o superior
+- npm
+
+### Instalación
+
+```bash
+git clone https://github.com/Navin-Andres/Portafolio-navin.git
+cd Portafolio-navin
+npm install
+npm run dev
+```
+
+Después, abre la dirección que Vite indique en la terminal, normalmente `http://localhost:5173`.
+
+## Scripts disponibles
+
+| Comando | Descripción |
+| --- | --- |
+| `npm run dev` | Inicia el entorno de desarrollo con recarga en caliente. |
+| `npm run build` | Genera la versión de producción en `dist/`. |
+| `npm run preview` | Sirve localmente la compilación de producción. |
+| `npm run lint` | Ejecuta el análisis estático con Oxlint. |
+
+## Estructura del proyecto
+
+```text
+src/
+├── assets/          # Imágenes e iconos
+├── components/      # Secciones y componentes de la interfaz
+├── data/            # Información de proyectos y habilidades
+├── App.jsx          # Navegación y composición principal
+└── main.jsx         # Punto de entrada de React
+public/              # Recursos estáticos públicos
+```
+
+## Contacto
+
+- GitHub: [@Navin-Andres](https://github.com/Navin-Andres)
+- LinkedIn: [navin-balmaceda](https://www.linkedin.com/in/navin-balmaceda/)
+- Correo: [navinbalmaceda83@gmail.com](mailto:navinbalmaceda83@gmail.com)
+
+---
+
+Hecho con React y Vite.
