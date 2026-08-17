@@ -38,7 +38,7 @@ function Hero() {
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h17v13h-17v-13Zm.8.8 7.7 6 7.7-6M3.8 18l5.9-5M20.2 18l-5.9-5" /></svg>
             <span>Email</span>
           </a>
-          <a className="button button-secondary" href="/cv.pdf" target="_blank" rel="noreferrer">
+          <a className="button button-secondary" href="/CV-Navin-Balmaceda-Desarrollador-Flutter.pdf" target="_blank" rel="noreferrer">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14" /></svg>
             Descargar CV
           </a>
